@@ -1,0 +1,180 @@
+$color1:#69D2E7;
+$color2:#A7DBDB;
+$color3:#E0E4CC;
+$color4:#F38630;
+$color5:#FA6900;
+$color6:#E94C6F;
+$color7:#542733;
+$color8:#5A6A62;
+$color9:#C6D5CD;
+$color10:#FDF200;
+$color11:#DB3340;
+$color12:#E8B71A;
+$color13:#F7EAC8;
+$color14:#1FDA9A;
+$color15:#28ABE3;
+$color16:#588C73;
+$color17:#F2E394;
+$color18:#F2AE72;
+$color19:#D96459;
+$color20:#8C4646;
+$color21:#D0C91F;
+$color22:#85C4B9;
+$color23:#008BBA;
+$color24:#DF514C;
+$color25:#DC403B;
+
+.p-5{
+	´padding:5%;
+}
+.color{
+	float: left;
+	width: 20%;
+	height: 100px;
+	margin-top: 10px;
+}
+
+@mixin bg($color){
+	background-color: $color;
+}
+
+.colores div:nth-child(1){
+	@include bg($color1);
+}
+
+.colores div:nth-child(2){
+	@include bg($color2);
+}
+
+.colores div:nth-child(3){
+	@include bg($color3);
+}
+
+.colores div:nth-child(4){
+	@include bg($color4);
+}
+
+.colores div:nth-child(5){
+	@include bg($color5);
+}
+
+.colores div:nth-child(6){
+	@include bg($color6);
+}
+
+.colores div:nth-child(7){
+	@include bg($color7);
+}
+
+.colores div:nth-child(8){
+	@include bg($color8);
+}
+
+.colores div:nth-child(1){
+	@include bg($color1);
+}
+
+.colores div:nth-child(2){
+	@include bg($color2);
+}
+
+.colores div:nth-child(3){
+	@include bg($color3);
+}
+
+.colores div:nth-child(4){
+	@include bg($color4);
+}
+
+.colores div:nth-child(5){
+	@include bg($color5);
+}
+
+.colores div:nth-child(6){
+	@include bg($color6);
+}
+
+.colores div:nth-child(7){
+	@include bg($color7);
+}
+
+.colores div:nth-child(8){
+	@include bg($color8);
+}
+
+.colores div:nth-child(9){
+	@include bg($color9);
+}
+
+.colores div:nth-child(10){
+	@include bg($color10);
+}
+
+.colores div:nth-child(11){
+	@include bg($color11);
+}
+
+.colores div:nth-child(12){
+	@include bg($color12);
+}
+
+.colores div:nth-child(13){
+	@include bg($color13);
+}
+
+.colores div:nth-child(14){
+	@include bg($color14);
+}
+
+.colores div:nth-child(15){
+	@include bg($color15);
+}
+
+.colores div:nth-child(16){
+	@include bg($color16);
+}
+
+.colores div:nth-child(17){
+	@include bg($color17);
+}
+
+.colores div:nth-child(18){
+	@include bg($color18);
+}
+
+.colores div:nth-child(19){
+	@include bg($color19);
+}
+
+.colores div:nth-child(20){
+	@include bg($color20);
+}
+
+.colores div:nth-child(21){
+	@include bg($color21);
+}
+
+.colores div:nth-child(22){
+	@include bg($color22);
+}
+
+.colores div:nth-child(23){
+	@include bg($color23);
+}
+
+.colores div:nth-child(24){
+	@include bg($color24);
+}
+
+.colores div:nth-child(25){
+	@include bg($color25);
+}
+body{
+	margin:0;
+	padding: 0;
+}
+
+.pd-80{
+	padding: 80px;
+}
+

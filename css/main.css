@@ -1,0 +1,117 @@
+@charset "UTF-8";
+.p-5 {
+  ┬┤padding: 5%; }
+
+.color {
+  float: left;
+  width: 20%;
+  height: 100px;
+  margin-top: 10px; }
+
+.colores div:nth-child(1) {
+  background-color: #69D2E7; }
+
+.colores div:nth-child(2) {
+  background-color: #A7DBDB; }
+
+.colores div:nth-child(3) {
+  background-color: #E0E4CC; }
+
+.colores div:nth-child(4) {
+  background-color: #F38630; }
+
+.colores div:nth-child(5) {
+  background-color: #FA6900; }
+
+.colores div:nth-child(6) {
+  background-color: #E94C6F; }
+
+.colores div:nth-child(7) {
+  background-color: #542733; }
+
+.colores div:nth-child(8) {
+  background-color: #5A6A62; }
+
+.colores div:nth-child(1) {
+  background-color: #69D2E7; }
+
+.colores div:nth-child(2) {
+  background-color: #A7DBDB; }
+
+.colores div:nth-child(3) {
+  background-color: #E0E4CC; }
+
+.colores div:nth-child(4) {
+  background-color: #F38630; }
+
+.colores div:nth-child(5) {
+  background-color: #FA6900; }
+
+.colores div:nth-child(6) {
+  background-color: #E94C6F; }
+
+.colores div:nth-child(7) {
+  background-color: #542733; }
+
+.colores div:nth-child(8) {
+  background-color: #5A6A62; }
+
+.colores div:nth-child(9) {
+  background-color: #C6D5CD; }
+
+.colores div:nth-child(10) {
+  background-color: #FDF200; }
+
+.colores div:nth-child(11) {
+  background-color: #DB3340; }
+
+.colores div:nth-child(12) {
+  background-color: #E8B71A; }
+
+.colores div:nth-child(13) {
+  background-color: #F7EAC8; }
+
+.colores div:nth-child(14) {
+  background-color: #1FDA9A; }
+
+.colores div:nth-child(15) {
+  background-color: #28ABE3; }
+
+.colores div:nth-child(16) {
+  background-color: #588C73; }
+
+.colores div:nth-child(17) {
+  background-color: #F2E394; }
+
+.colores div:nth-child(18) {
+  background-color: #F2AE72; }
+
+.colores div:nth-child(19) {
+  background-color: #D96459; }
+
+.colores div:nth-child(20) {
+  background-color: #8C4646; }
+
+.colores div:nth-child(21) {
+  background-color: #D0C91F; }
+
+.colores div:nth-child(22) {
+  background-color: #85C4B9; }
+
+.colores div:nth-child(23) {
+  background-color: #008BBA; }
+
+.colores div:nth-child(24) {
+  background-color: #DF514C; }
+
+.colores div:nth-child(25) {
+  background-color: #DC403B; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.pd-80 {
+  padding: 80px; }
+
+/*# sourceMappingURL=main.css.map */
