@@ -23,10 +23,76 @@ $color22:#85C4B9;
 $color23:#008BBA;
 $color24:#DF514C;
 $color25:#DC403B;
+$green:#27AD60;
+$blue:#2C3E50;
+
+/****mixin's de pura finta*****/
+@mixin bg($color){
+	background-color: $color;
+}
+
+@mixin pd($porcentaje){
+	padding:$porcentaje;
+}
+
+/*****mixin's de utilidad****/
+
+/******UTILITIES********/
 
 .p-5{
-	´padding:5%;
+	@include pd(5%);
 }
+
+.p-10{
+	@include pd(10%);
+}
+
+.pd-80{
+	@include pd(80px);
+}
+
+.bg-green{
+	@include bg($green);
+}
+
+.bg-blue{
+	@include bg($blue);
+}
+
+.w-100{
+	width:100%;
+}
+
+.white{
+	color:white;
+}
+
+/******SETEO******/
+
+
+body{
+	margin:0;
+	padding: 0;
+}
+
+/******HEADER******/
+header{
+	margin-bottom: 28px;
+}
+
+.navbar{
+	@include bg($green);
+	padding: 1%;
+}
+
+.bg-hero{
+	background:url('../img/carousel-bg.jpg') repeat center center;
+	background-size: cover;
+	padding:12% 0 23% 0;
+	color:white;
+}
+
+/******PALETA*******/
 .color{
 	float: left;
 	width: 20%;
@@ -34,10 +100,7 @@ $color25:#DC403B;
 	margin-top: 10px;
 }
 
-@mixin bg($color){
-	background-color: $color;
-}
-
+/*esto no me gusta*/
 .colores div:nth-child(1){
 	@include bg($color1);
 }
@@ -169,12 +232,19 @@ $color25:#DC403B;
 .colores div:nth-child(25){
 	@include bg($color25);
 }
-body{
-	margin:0;
-	padding: 0;
-}
 
-.pd-80{
-	padding: 80px;
-}
+/*******ABOUT US*******/
 
+.about-us{
+	h2{
+		font-size: 5em;
+	}
+
+	hr{
+		width: 200px;
+	}
+
+	img{
+	height:350px;
+	}
+}

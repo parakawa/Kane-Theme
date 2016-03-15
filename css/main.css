@@ -1,13 +1,54 @@
-@charset "UTF-8";
+/****mixin's de pura finta*****/
+/*****mixin's de utilidad****/
+/******UTILITIES********/
 .p-5 {
-  ┬┤padding: 5%; }
+  padding: 5%; }
 
+.p-10 {
+  padding: 10%; }
+
+.pd-80 {
+  padding: 80px; }
+
+.bg-green {
+  background-color: #27AD60; }
+
+.bg-blue {
+  background-color: #2C3E50; }
+
+.w-100 {
+  width: 100%; }
+
+.white {
+  color: white; }
+
+/******SETEO******/
+body {
+  margin: 0;
+  padding: 0; }
+
+/******HEADER******/
+header {
+  margin-bottom: 28px; }
+
+.navbar {
+  background-color: #27AD60;
+  padding: 1%; }
+
+.bg-hero {
+  background: url("../img/carousel-bg.jpg") repeat center center;
+  background-size: cover;
+  padding: 12% 0 23% 0;
+  color: white; }
+
+/******PALETA*******/
 .color {
   float: left;
   width: 20%;
   height: 100px;
   margin-top: 10px; }
 
+/*esto no me gusta*/
 .colores div:nth-child(1) {
   background-color: #69D2E7; }
 
@@ -107,11 +148,12 @@
 .colores div:nth-child(25) {
   background-color: #DC403B; }
 
-body {
-  margin: 0;
-  padding: 0; }
-
-.pd-80 {
-  padding: 80px; }
+/*******ABOUT US*******/
+.about-us h2 {
+  font-size: 5em; }
+.about-us hr {
+  width: 200px; }
+.about-us img {
+  height: 350px; }
 
 /*# sourceMappingURL=main.css.map */
