@@ -22,10 +22,11 @@
 .white {
   color: white; }
 
-/******SETEO******/
+/******OTROS******/
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
 
 /******HEADER******/
 header {
@@ -149,11 +150,35 @@ header {
   background-color: #DC403B; }
 
 /*******ABOUT US*******/
-.about-us h2 {
+.about-us h2, .what h2, .our-awesome h2 {
   font-size: 5em; }
-.about-us hr {
+.about-us hr, .what hr, .our-awesome hr {
   width: 200px; }
+
 .about-us img {
   height: 350px; }
+
+/*****WHAT*****/
+.what a {
+  height: 80px;
+  width: 200px;
+  background-color: black;
+  color: white; }
+.what div div div div div {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  margin: auto; }
+.what div div div div p {
+  color: #C1C1C1; }
+.what div div div div h3 {
+  font-size: 2em;
+  margin: 15px 0 30px; }
+
+/*****OUR-AEWSOME*****/
+.our-awesome p {
+  color: #C1C1C1; }
+.our-awesome h5 {
+  font-size: 2.5em; }
 
 /*# sourceMappingURL=main.css.map */
